@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Cars</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+
+    </style>
+</head>
+<body onload="checkCookie()">
+    <div class="road" id="road" style="background-position-y: 1px;-ms-background-position-y: 1px">
+        <div class="white" style="top: 460px;left: 445px" id="whiteCar">
+        </div>
+
+        <div class="enemies" style="top: -330px;left: 315px" id="blueCar">
+        </div>
+    </div>
+    <div class="keys">
+        <input type="submit" value="UP" onclick="Up()">
+        <div>
+            <input type="submit" value="LEFT" onclick="Left()">
+            <input type="submit" value="DOWN" onclick="Down()">
+            <input type="submit" value="RIGHT" onclick="Right()">
+        </div>
+    </div>
+
+    <noscript>مرورگر شما جاوااسکریپت را پشتیبانی نمیکند</noscript>
+    <script src="js/keymaster-master/keymaster.js"></script>
+    <script src="js/jscodes.js"></script>
+</body>
+</html>
